@@ -1,0 +1,45 @@
+body{
+    background-color: #f2f2f2;
+}
+body.dark-true{
+    background-color: black; /* Dark background color */
+}
+
+h1.dark-true{
+background-color: white;
+}
+
+h5{
+    float: left;
+}
+
+#main {
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 45px;
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px; 
+  }
+
+  #submit{
+    margin-top: 10px;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  #dark-button{     
+    float: right;
+  }
